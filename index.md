@@ -1,46 +1,45 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Welcome to Learn Finagle
+tagline: How to create real life production microservices with Finagle
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Learn how to create real life production microservices with Finagle.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## What are Microservices ?
 
-## Update Author Attributes
+There's a lot of heap about microservices nowadays but microservices are not
+for everyone, so learn when to use and also when not to use them.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+For more about microservices check out these InfoQ presentations:
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+* [Microservices at Guilt](https://www.infoq.com/presentations/scale-gilt)
+* [Microservices at Netflix](https://www.infoq.com/presentations/netflix-ipc)
+* [Microservices and Continuous Delivery](https://www.infoq.com/presentations/evolutionary-architecture-microservices-cd)
+* More at the [InfoQ Microservices channel](https://www.infoq.com/microservices/presentations/)
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+## What is Finagle ?
 
-    $ rm -rf _posts/core-samples
+For our journey we are going to use Twitter's Finagle, one of the best
+tools to implement microservices. It's based on Scala but also Java can be used.
 
-Here's a sample "posts list".
+Finagle is what Twitter uses to keep up with its huge demand and since 2010
+it's open source for use to use in our own projects and apps.
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+More info about Finagle at:
 
-## To-Do
+* [Finagle website](https://twitter.github.io/finagle/)
+* [Finagle at ScalaDays 2011](http://days2011.scala-lang.org/node/138/286/45.%20Finagle.mp4)
+* [Finagle for distributed systems](https://monkey.org/~marius/talks/twittersystems/#1)
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+## What is this site about ?
 
+This site will guide you on how to use Finagle to build distributed systems based
+on microservices.
 
+We are going to mix Finagle with several other parts of a system like web servers,
+load balancers and databases.
+
+All this mixes have their own context to show when to use it, its advantages and
+strong points but also its trade-offs and when not to use it.
