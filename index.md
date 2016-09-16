@@ -10,7 +10,8 @@ Learn how to create real life production microservices with Finagle.
 ## What are Microservices ?
 
 There's a lot of heap about microservices nowadays but microservices are not
-for everyone, so learn when to use and also when not to use them.
+for everyone, so it's better to learn when to use them but and also when
+not to use them.
 
 For more about microservices check out these InfoQ presentations:
 
@@ -25,13 +26,13 @@ For our journey we are going to use Twitter's Finagle, one of the best
 tools to implement microservices. It's based on Scala but also Java can be used.
 
 Finagle is what Twitter uses to keep up with its huge demand and since 2010
-it's open source for use to use in our own projects and apps.
+it's open source for us to use it at our own projects and apps.
 
 More info about Finagle at:
 
-* [Finagle website](https://twitter.github.io/finagle/)
-* [Finagle at ScalaDays 2011](http://days2011.scala-lang.org/node/138/286/45.%20Finagle.mp4)
-* [Finagle for distributed systems](https://monkey.org/~marius/talks/twittersystems/#1)
+* [Finagle official website](https://twitter.github.io/finagle/)
+* [Finagle at ScalaDays 2011 (video)](http://days2011.scala-lang.org/node/138/286/45.%20Finagle.mp4)
+* [Finagle for distributed systems (slides)](https://monkey.org/~marius/talks/twittersystems/#1)
 
 ## What is this site about ?
 
